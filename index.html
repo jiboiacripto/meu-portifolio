@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Vinicius Soares">
+    <meta name="description" content="Portfólio da desenvolvedor front-end Vinícius Soares">
+    <meta name="keywords" content="portfolio, html, front-end, desenvolvimento, css, javascript">
+    <title>Vinicius Soares</title>
+    <link rel="icon" href="icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header>
+    <nav data-menu="suave">
+       <p><a href="#home">&lsaquo;VS.DEV&rsaquo;</a></p>
+       <button data-menu="button" aria-controls="menu"></button>
+      <ul data-menu="list" id="menu">
+        <a href="#home">
+        <li>Home</li>
+      </a>
+        <a href="#sobre">
+          <li>Sobre</li>
+        </a>
+        <a href="#experiencia">
+        <li>Experiência</li>
+      </a>
+      <a href="#projetos">
+        <li>Projetos</li>
+      </a>
+      </ul>
+    </nav>
+  </header>
+
+    <main>
+      <section class="principal" id="home" >
+        <div class="principal__left">
+          <h1>Olá, eu sou</h1>
+            <span class="principal__sentence"></span>
+            <span class="principal__input-cursor"></span>
+          <h1>Desenvolvedor Front-End</h1>
+          <div class="principal__botao">
+            <a href="https://www.linkedin.com/in/vinicius-soares-de-oliveira-551946162/" target="_blank">
+              <div class="principal__botao-linkedin">
+                <img src="./assets/linkedin.png" alt="" />
+                <p>LinkedIn</p>
+              </div>
+            </a>
+            <a href="https://github.com/ViniiSoares" target="_blank">
+              <div class="principal__botao-github">
+                <img src="./assets/github.png" alt="" />
+                <p>Github</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="principal__right">
+          <img src="assets/imgfundo.png" alt="imagem dos 3 pilares." data-tilt>
+        </div>
+        
+        <div class="scroll" data-menu="suave"><a href="#sobre" > <p> scroll down </p> <img src="./assets/scroll.png" alt="Setinha indicando para rolar a tela para baixo"></a></div>
+      </section>
+      <section class="sobre-mim" id="sobre" data-anime="js-scroll">
+        <div class="sobre-mim__foto">
+          <img src="assets/eu.jpg" alt="Uma selfie da Gabriela Souza" />
+        </div>
+        <div class="sobre-mim__descricao" >
+          <h1>Sobre mim</h1>
+          <h2>Valença, Rio de Janeiro</h2>
+          <p>
+            Olá! Sou Vinícius, um apaixonado por tecnologia e um entusiasta incansável no mundo do desenvolvimento front-end. Com uma formação sólida em Análise e Desenvolvimento de Sistemas e experiências na criação de web incríveis, estou dedicado a transformar ideias em interfaces elegantes e funcionais.
+
+Meu trabalho vai muito além de simplesmente escrever código. É sobre entender as necessidades dos usuários, traduzir conceitos complexos em designs intuitivos e garantir que cada pixel e linha de código seja otimizado para a melhor experiência possível.
+
+Minha jornada no desenvolvimento front-end me levou a dominar uma ampla gama de tecnologias, desde HTML5, CSS3 e JavaScript até as mais recentes bibliotecas e frameworks, como React e Vue.js. Estou constantemente atualizando meu conjunto de habilidades para estar na vanguarda das tendências tecnológicas.
+
+Além disso, sou um colaborador ávido, acredito na importância de trabalhar em equipe e comunicar eficazmente com designers e desenvolvedores back-end para entregar projetos excepcionais. Meu objetivo final é criar soluções web que não apenas atendam, mas excedam as expectativas dos clientes e proporcionem aos usuários finais uma experiência memorável.
+
+Se você está procurando um desenvolvedor front-end comprometido, apaixonado pela criação de interfaces de alta qualidade e pronto para enfrentar novos desafios, estou pronto para fazer parte do seu próximo projeto. Vamos criar algo incrível juntos!
+
+
+           </p>
+        
+            <a
+              href="mailto: vini.dev.front@gmail.com"
+              target="_blank"
+            >
+              <div class="sobre-mim__descricao-buttons-email">
+                <img src="./assets/email.png" alt="" />
+                <p>E-mail</p>
+              </div>
+            </a>
+          </div>
+          
+        </div>
+      </section>
+      <section class="experiencia" id="experiencia" data-anime="js-scroll">
+        <h1>Experiência</h1>
+        <section data-anime="show-right">
+            <h2> Graduação - Análise e desenvolvimento de Sistemas </h2>
+            <span>jul 2023 - Jul 2025</span>
+            <p class="experiencia__descricao-local">Faculdade Descomplica - UniAmaricas</p>
+            <p>
+              
+            </p>
+          </section>
+        </div>
+        </section>
+        </div>
+      </section>
+      <section class="projetos" id="projetos" data-anime="js-scroll">
+        <h1>Projetos</h1>
+        <div class="projetos__wrapper">
+          <section class="projetos__card">
+          <span>EM BREVE</span>
+          </section>
+        </div>
+      </section>
+
+      <footer>
+        <p>Desenvolvido por <span>Vinícius Soares</span>
+      </footer>
+    </main>
+
+    <script src="./js/script.js" type="module"></script>
+    <script src="./js/modules/vanilla-tilt.min.js"></script>
+  </body>
+</html>
